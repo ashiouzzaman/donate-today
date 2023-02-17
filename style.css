@@ -14,6 +14,20 @@ p{
 *{
     margin: 0;
 }
+.section-title{
+    font-size: 44px;
+    font-weight: 700;
+    color: #121212;
+    padding-bottom: 20px;
+}
+
+.section-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+    padding-bottom: 20px;
+
+}
 
 /* Header */
 header{
@@ -42,9 +56,47 @@ header p{
     color: #ffffff;
     background: tomato;
     border: 0;
-    border-radius: 6px;
+    border-radius: 5px;
     padding: 16px 24px;
     font-size: 20px;
     font-weight: 600;
 }
 
+/* Donate Today */
+
+.donate-today{
+    text-align: center;
+    margin: 100px 200px;
+}
+.amount{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.amount button{
+    padding: 40px 20px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #707070;
+    border: 0;
+    border-radius: 5px;
+}
+
+.active{
+    color: tomato !important;
+    border: 1px solid tomato !important;
+    background: #FFEEEE;
+}
+
+.other-amount{
+    border: 0;
+    border-bottom: 1px solid #DADADA;
+    width: 100%;
+    /* margin: 0 100px; */
+    margin-bottom: 40px;
+    padding: 20px;
+}
+.other-amount::placeholder{
+    font-size: 20px;
+    text-align: center;
+}
